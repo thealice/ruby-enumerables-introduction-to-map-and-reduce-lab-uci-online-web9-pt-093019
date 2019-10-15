@@ -17,3 +17,23 @@ def map_to_no_change(array)
   end
   unchanged
 end
+
+def map_to_no_double(array)
+  doubled = []
+  count = 0
+  while count < array.size do
+    doubled << (array[count] * 2)
+    count += 1
+  end
+  doubled
+end
+
+def map_to_squared(array)
+  dquared = []
+  count = 0
+  while count < array.size do
+    squared << (array[count] ** 2)
+    count += 1
+  end
+  squared
+end
