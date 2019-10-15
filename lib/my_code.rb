@@ -37,3 +37,7 @@ def map_to_squared(array)
   end
   squared
 end
+
+def reduce_to_total
+  
+end
