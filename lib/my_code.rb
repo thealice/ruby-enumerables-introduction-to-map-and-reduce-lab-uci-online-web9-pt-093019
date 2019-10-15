@@ -18,7 +18,7 @@ def map_to_no_change(array)
   unchanged
 end
 
-def map_to_no_double(array)
+def map_to_double(array)
   doubled = []
   count = 0
   while count < array.size do
@@ -39,5 +39,5 @@ def map_to_squared(array)
 end
 
 def reduce_to_total
-  
+
 end
