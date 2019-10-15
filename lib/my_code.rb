@@ -28,8 +28,8 @@ def map_to_double(array)
   doubled
 end
 
-def map_to_squared(array)
-  dquared = []
+def map_to_square(array)
+  squared = []
   count = 0
   while count < array.size do
     squared << (array[count] ** 2)
